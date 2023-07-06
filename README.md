@@ -21,10 +21,15 @@
 
 ]
 ```
-
+### come provvisorio modificare i seguenti dati sul composer json
+```
+"minimum-stability": "dev",
+    "prefer-stable": false,
+    "repositories": [
+```
 ## Install the plug-in via Composer
 Open a terminal in the Magento 2 installation directory, and issue the following commands:
- 1. `composer require coinbar/coinbar-pay-m2-plg/coinbar-pay`
+ 1. `composer require coinbar/coinbar-pay-m2-plg/`
  2. `php bin/magento setup:upgrade`
  3. `php bin/magento setup:di:compile`
 
