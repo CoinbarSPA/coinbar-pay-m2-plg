@@ -26,6 +26,6 @@
     "minimum-stability": "stable",
     "repositories": [
         { "type": "vcs", "url": "https://github.com/CoinbarSPA/coinbar-pay-php-sdk" },
-        { "type": "vcs", "url": "https://github.com/adamantic-io/crypto-payments-php" }
+        { "type": "vcs", "url": "https://github.com/CoinbarSPA/crypto-payments-php" }
     ]
 }
