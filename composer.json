@@ -28,4 +28,3 @@
         "ext-json": "*",
         "coinbar/coinbar-pay-php-sdk": "^1.0.0"
     },
-}
