@@ -17,6 +17,11 @@
             "name": "Coinbar SPA",
             "email": "info@coinbar.io"
         }
+         {
+            "name": "Admantic",
+            "email": "info@coinbar.io"
+        }
+        
     ],
     "require": {
         "php": ">=7.4",
