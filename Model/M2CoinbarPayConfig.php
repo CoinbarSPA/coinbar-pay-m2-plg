@@ -28,7 +28,7 @@ class M2CoinbarPayConfig extends CoinbarPaymentGatewayConfig {
 
     public function __construct(
         ScopeConfigInterface $scopeConfig,
-        UrlInterface $urlBuilder,
+        UrlInterface $urlBuilder
     ) {
         $this->_scopeConfig = $scopeConfig;
         $this->_urlBuilder = $urlBuilder;
