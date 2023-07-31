@@ -44,7 +44,7 @@ class Success extends \Magento\Checkout\Controller\Onepage\Success
         \Magento\Framework\Controller\Result\JsonFactory $resultJsonFactory,
         \Magento\Checkout\Model\Session $checkoutSession,
         \Magento\Sales\Model\Order $order,
-        \Psr\Log\LoggerInterface $logger,
+        \Psr\Log\LoggerInterface $logger
     ) {
         parent::__construct(
             $context,
